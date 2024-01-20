@@ -2,26 +2,84 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: "Poppins Bold";
+  src: url("/fonts/Poppins-Bold.ttf");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: "Poppins SemiBold";
+  src: url("/fonts/Poppins-SemiBold.ttf");
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@font-face {
+  font-family: "Poppins Medium";
+  src: url("/fonts/Poppins-Medium.ttf");
 }
+
+@font-face {
+  font-family: "Poppins Medium Italic";
+  src: url("/fonts/Poppins-MediumItalic.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Regular";
+  src: url("/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Light";
+  src: url("/fonts/Poppins-Light.ttf");
+}
+
+@font-face {
+  font-family: "Brolimo Bold";
+  src: url("/fonts/BROLIMO-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Abhaya Libre";
+  src: url("/fonts/AbhayaLibre-ExtraBold.ttf");
+}
+
+/* width */
+#list1::-webkit-scrollbar {
+  width: 6px;
+  display: block;
+}
+
+/* Track */
+#list1::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #FBDD9D; 
+  border-radius: 10px;
+  background: transparent;
+}
+ 
+/* Handle */
+#list1::-webkit-scrollbar-thumb {
+  background: #F2BA41; 
+  border-radius: 10px;
+  height: 10px;
+}
+
+/* Handle on hover */
+#list1::-webkit-scrollbar-thumb:hover {
+  background: #F2BA41; 
+}
+
+/* .parent {
+  transform-style: preserve-3d;
+}
+.child {
+  transform: translateZ(-10px)
+}  */
+
+/* #list1::-webkit-scrollbar-track-piece:end {
+  background: transparent;
+  margin-bottom: 100px; 
+}
+
+#list1::-webkit-scrollbar-track-piece:start {
+  background: transparent;
+  margin-top: 100px;
+} */
