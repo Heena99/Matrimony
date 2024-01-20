@@ -9,7 +9,7 @@ const Received = () => {
                         <img src="/assets/heart-fill.svg" alt="heart" className="size-3 sm:size-4" />
                         <div className=" font-poppinsregular text-[0.6rem] sm:text-[0.7rem] text-white">Vidhi liked your profile</div>
                     </div>
-                    <div className="sm:w-[36%] w-[34%] relative flex flex-none justify-center items-center bg-contain h-full bg-[url('../assets/zigzagbg.png')]">
+                    <div className="sm:w-[36%] w-[34%] relative flex flex-none justify-center items-center bg-contain h-full bg-[url('/assets/zigzagbg.png')]">
                         <img src="/assets/tomb.png" alt="tomb" className="w-[85%]" />
                         <div className="absolute w-[60%] flex flex-col justify-center items-center">
                             <div className="rounded-full bg-[#ED9C00] text-[#FFFCF1] font-poppinsmediumitalic px-1.5 text-[0.4rem] sm:text-[0.55rem]">New</div>
@@ -71,7 +71,7 @@ const Received = () => {
                         <img src="/assets/heart-fill.svg" alt="heart" className="size-3 sm:size-4" />
                         <div className=" font-poppinsregular text-[0.6rem] sm:text-[0.7rem] text-white">Vidhi liked your profile</div>
                     </div>
-                    <div className="sm:w-[36%] w-[34%] relative flex flex-none justify-center items-center bg-contain h-full bg-[url('../assets/zigzagbg.png')]">
+                    <div className="sm:w-[36%] w-[34%] relative flex flex-none justify-center items-center bg-contain h-full bg-[url('/assets/zigzagbg.png')]">
                         <img src="/assets/tomb.png" alt="tomb" className="w-[85%]" />
                         <div className="absolute w-[60%] flex flex-col justify-center items-center">
                             <div className="rounded-full bg-[#ED9C00] text-[#FFFCF1] font-poppinsmediumitalic px-1.5 text-[0.4rem] sm:text-[0.55rem]">New</div>
@@ -133,7 +133,7 @@ const Received = () => {
                         <img src="/assets/heart-fill.svg" alt="heart" className="size-3 sm:size-4" />
                         <div className=" font-poppinsregular text-[0.6rem] sm:text-[0.7rem] text-white">Vidhi liked your profile</div>
                     </div>
-                    <div className="sm:w-[36%] w-[34%] relative flex flex-none justify-center items-center bg-contain h-full bg-[url('../assets/zigzagbg.png')]">
+                    <div className="sm:w-[36%] w-[34%] relative flex flex-none justify-center items-center bg-contain h-full bg-[url('/assets/zigzagbg.png')]">
                         <img src="/assets/tomb.png" alt="tomb" className="w-[85%]" />
                         <div className="absolute w-[60%] flex flex-col justify-center items-center">
                             <div className="rounded-full bg-[#ED9C00] text-[#FFFCF1] font-poppinsmediumitalic px-1.5 text-[0.4rem] sm:text-[0.55rem]">New</div>

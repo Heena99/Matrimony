@@ -5,7 +5,7 @@ const NewProfile = () => {
 
             <li className="sm:mb-4 sm:mx-5 mx-2 mb-1">
                 <div className="w-full sm:h-48 h-32 flex relative shadow-lg bg-[#FAF3DC] border-[1px] border-[#EE9813] rounded-xl">
-                    <div className="sm:w-[36%] w-[34%] relative flex flex-none justify-center items-center bg-contain h-full bg-[url('../assets/zigzagbg.png')]">
+                    <div className="sm:w-[36%] w-[34%] relative flex flex-none justify-center items-center bg-contain h-full bg-[url('/assets/zigzagbg.png')]">
                         <img src="/assets/tomb.png" alt="tomb" className="w-[85%]" />
                         <div className="absolute w-[60%] flex flex-col justify-center items-center">
                             <div className="rounded-full bg-[#ED9C00] text-[#FFFCF1] font-poppinsmediumitalic px-1.5 text-[0.4rem] sm:text-[0.55rem]">New</div>
@@ -63,7 +63,7 @@ const NewProfile = () => {
 
             <li className="sm:mb-4 sm:mx-5 mx-2 mb-1">
                 <div className="w-full sm:h-48 h-32 flex relative shadow-lg bg-[#FAF3DC] border-[1px] border-[#EE9813] rounded-xl">
-                    <div className="sm:w-[36%] w-[34%] relative flex flex-none justify-center items-center bg-contain h-full bg-[url('../assets/zigzagbg.png')]">
+                    <div className="sm:w-[36%] w-[34%] relative flex flex-none justify-center items-center bg-contain h-full bg-[url('/assets/zigzagbg.png')]">
                         <img src="/assets/tomb.png" alt="tomb" className="w-[85%]" />
                         <div className="absolute w-[60%] flex flex-col justify-center items-center">
                             <div className="rounded-full bg-[#ED9C00] text-[#FFFCF1] font-poppinsmediumitalic px-1.5 text-[0.4rem] sm:text-[0.55rem]">New</div>
@@ -121,7 +121,7 @@ const NewProfile = () => {
 
             <li className="sm:mb-4 sm:mx-5 mx-2 mb-1">
                 <div className="w-full sm:h-48 h-32 flex relative shadow-lg bg-[#FAF3DC] border-[1px] border-[#EE9813] rounded-xl">
-                    <div className="sm:w-[36%] w-[34%] relative flex flex-none justify-center items-center bg-contain h-full bg-[url('../assets/zigzagbg.png')]">
+                    <div className="sm:w-[36%] w-[34%] relative flex flex-none justify-center items-center bg-contain h-full bg-[url('/assets/zigzagbg.png')]">
                         <img src="/assets/tomb.png" alt="tomb" className="w-[85%]" />
                         <div className="absolute w-[60%] flex flex-col justify-center items-center">
                             <div className="rounded-full bg-[#ED9C00] text-[#FFFCF1] font-poppinsmediumitalic px-1.5 text-[0.4rem] sm:text-[0.55rem]">New</div>

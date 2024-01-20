@@ -5,7 +5,6 @@ import Buttontoggle from "./Buttontoggle";
 import { useState } from "react";
 
 export default function Home() {
-  const Bell = require('../assets/Notification.svg');
   const [activeNav, setActiveNav] = useState("Profile")
   return (
     <div className="h-dvh w-dvw relative flex justify-center">
@@ -20,7 +19,7 @@ export default function Home() {
       className="sm:absolute sm:bottom-0 sm:left-0 hidden sm:inline"
     />
     <img
-      src="../assets/IButton.png"
+      src="/assets/IButton.png"
       alt="UnCover Button"
       className="sm:absolute sm:top-1/2 sm:right-[110px] sm:translate-y-[-50%] hidden sm:inline"
     />
